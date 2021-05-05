@@ -1,13 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import Hello from './Hello';
+import App from './App.js';
 import reportWebVitals from './reportWebVitals';
 import 'tachyons';
 
+
 ReactDOM.render(
   <React.StrictMode>
-  <Hello saludo={'Hola amorcita'} />
+  <App/>
   </React.StrictMode>,
   document.getElementById('root')
 );
