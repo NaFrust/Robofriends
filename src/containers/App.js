@@ -19,7 +19,7 @@ class App extends React.Component {
         }
         
 componentDidMount(){
-    fetch('https://jsonplaceholder.typicode.com/users').then(response => response.json())
+    fetch('https://dummyapi.io/data/api/user?limit=10').then(response => response.json())
     .then(users => this.setState({robots: users}))
    
 }

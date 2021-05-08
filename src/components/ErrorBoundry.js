@@ -13,7 +13,7 @@ class ErrorBoundry extends React.Component{
     }
     render(){
         if (this.state.hasError) {
-            return <h1>ups! i didt again</h1>
+            return <h1>ups! i did it again</h1>
         }else{
             return this.props.children;
         }
